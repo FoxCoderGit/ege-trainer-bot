@@ -1,0 +1,2 @@
+# Python standard library only. Windows/containers without IANA data need tzdata.
+tzdata>=2025.1; sys_platform == "win32"
